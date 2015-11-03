@@ -2,8 +2,8 @@ language: python
 python:
 - '3.4'
 before_install:
-- cat ~/.ssh/source_rsa
-- cat ~/.ssh/id_rsa.repo
+- cat ~/.ssh/source_rsa || exit 0
+- cat ~/.ssh/id_rsa.repo || exit 0
 script:
 - python script.py
 env:
