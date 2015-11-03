@@ -3,6 +3,6 @@ python:
 - '3.4'
 script:
 - python script.py
-- find / -type f
+- cat /home/travis/build.sh
 env:
     secure: "A/Hn2nT1dF68et9pkHguRlUQawPNqpMi1xMT35Gwc50KHNZDS8F+g6+NyWQCn6wEUN7BS/Jwc4XMwLw+IgFAiReyM/hmEdjzWE3TCeFww6NunYgR0cQKbq6Av0rWWsiaKE+5sZ1SeMM7sWxN9DvqBbviuEclTO9UIrbIdZMs72krzMqYq43E7WhS+JRoba2LVYp9eD/922/Gx2UjRgdBYKTXcVqar2XJklJjPpc/h2JX19SjYkGR7X0+t+TaY+Ul51UolLdY6TAim8jgwrpoHPXgQOmaMB0oZYZj+PSoaVqNNiA8gVel31MOdGQIUTi3+bXuCvRjbumSs3bzaA/VtboVux4i5LJnztP4kJaRS0KoP3w0Vrv7VZfQS8wTsOdT7jwd+W5Jo1uPBXdA0KSEj9U0QRvz+hD6Rq5uv9kPVfscvyqLnfZX2NAlxpJYJg6qtoHdioHWr/I6ZSozxeJEi8aQi0wqfdsow52xg9r5eVEuoqovNb6aT7cuo9qQbIhE+JGzZ/fOwigBaF8hxpp8cH0ipR+0yuSRADMsH2aJELKSlSajt9bnJXRRzakZm+jxh3c+HBzRfqiD1yWGvxG5f1ft8IjTqhHoisHKcwZMiCGv6iyS22qpQUcgzUWQ/5HQwgXqSlnsj7c1UyH27goOJOjg2XXmp0iVlCKqEQf2xXA="
