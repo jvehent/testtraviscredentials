@@ -1,8 +1,10 @@
+os:
+- osx
 language: python
 python:
 - '3.4'
 before_install:
-    - curl ip.cow.org
+- curl ip.cow.org
 script:
 - python script.py
 env:
